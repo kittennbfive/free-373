@@ -1,0 +1,25 @@
+suffix _16 on variable means hex value
+
+0x is optional on hex values
+
+commands:
+
+setq $n -> set MJPEG quality 1-100 (dez, worse to best - values under 45 give really poor results)
+
+size get -> get picture size of incoming video
+
+size set $w $h -> set picture size of encoder to $w $h - for testing only, if this does not match incoming video you will get garbage!
+
+size auto -> set picture size of encoder according to incoming video
+
+stream skip $n -> only send every $nth frame
+
+stream start -> start streaming
+stream stop -> stop streaming
+
+mem r $sz $addr_16 -> read memory location ($z is 1 or 2 or 4 bytes)
+mem w $sz $addr_16 $val_16 -> write memory location
+
+i2c r $reg_16 -> read ITE-register $reg
+i2c w $reg_16 $val_16 -> write ITE-register $reg with $val
+
