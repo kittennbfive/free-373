@@ -1,3 +1,5 @@
+firmware is on the right ----->  
+
 **What is this?**  
 This is mostly a proof of concept, an EXPERIMENTAL and MINIMALISTIC firmware for the LKV373 *V2*. As usual it comes WITHOUT ANY WARRANTY! YOU MAY BRICK YOUR DEVICE OR IT MAY EXPLODE! **USE AT YOUR OWN RISK!** You should have block2 of the original firmware handy and maybe a way to reflash the entire memory if something goes really wrong.  
   
