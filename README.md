@@ -16,7 +16,7 @@ You can stream video and use the serial interface. See MANUAL.txt.
 Use the webinterface at 192.168.168.55 or .221 if in bootloader mode.  
   
 **How to use?**  
-Connect via serial 115200 8N1. Plug in a video source and network, wait a few seconds and type `stream start`. <s>Report any bugs here or on IRC even if i am offline.</s> You can report bugs but because nobody seems to care about this old device i don't think i will continue this work.  
+Connect via serial 115200 8N1. Plug in a video source and network, wait a few seconds and type `stream start`. <s>Report any bugs here.</s> You can report bugs but because nobody seems to care about this old device i don't think i will continue this work.  
   
 **How to get rid of this firmware again?**  
 Hold the reset button and send any character over serial. Wait for the bootloader and reflash original firmware (block2!!) using the webinterface on .221. If the firmware crashed power-cycle. You can also hold the reset button while power-cycling and keep pressed for a few seconds to go into bootloader mode.
